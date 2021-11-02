@@ -1,0 +1,14 @@
+C:\Users\hasib\Desktop\Asp.netCore\FirstApp\FirstApp\bin\Debug\netcoreapp3.1\FirstApp.exe
+C:\Users\hasib\Desktop\Asp.netCore\FirstApp\FirstApp\bin\Debug\netcoreapp3.1\FirstApp.deps.json
+C:\Users\hasib\Desktop\Asp.netCore\FirstApp\FirstApp\bin\Debug\netcoreapp3.1\FirstApp.runtimeconfig.json
+C:\Users\hasib\Desktop\Asp.netCore\FirstApp\FirstApp\bin\Debug\netcoreapp3.1\FirstApp.runtimeconfig.dev.json
+C:\Users\hasib\Desktop\Asp.netCore\FirstApp\FirstApp\bin\Debug\netcoreapp3.1\FirstApp.dll
+C:\Users\hasib\Desktop\Asp.netCore\FirstApp\FirstApp\bin\Debug\netcoreapp3.1\FirstApp.pdb
+C:\Users\hasib\Desktop\Asp.netCore\FirstApp\FirstApp\obj\Debug\netcoreapp3.1\FirstApp.csproj.AssemblyReference.cache
+C:\Users\hasib\Desktop\Asp.netCore\FirstApp\FirstApp\obj\Debug\netcoreapp3.1\FirstApp.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\hasib\Desktop\Asp.netCore\FirstApp\FirstApp\obj\Debug\netcoreapp3.1\FirstApp.AssemblyInfoInputs.cache
+C:\Users\hasib\Desktop\Asp.netCore\FirstApp\FirstApp\obj\Debug\netcoreapp3.1\FirstApp.AssemblyInfo.cs
+C:\Users\hasib\Desktop\Asp.netCore\FirstApp\FirstApp\obj\Debug\netcoreapp3.1\FirstApp.csproj.CoreCompileInputs.cache
+C:\Users\hasib\Desktop\Asp.netCore\FirstApp\FirstApp\obj\Debug\netcoreapp3.1\FirstApp.dll
+C:\Users\hasib\Desktop\Asp.netCore\FirstApp\FirstApp\obj\Debug\netcoreapp3.1\FirstApp.pdb
+C:\Users\hasib\Desktop\Asp.netCore\FirstApp\FirstApp\obj\Debug\netcoreapp3.1\FirstApp.genruntimeconfig.cache
