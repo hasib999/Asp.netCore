@@ -1,0 +1,36 @@
+﻿@model FirstAppAspDotNetCore.Models.Student
+@{
+    ViewData["Title"] = "Admission";
+}
+
+<h1>Admission</h1>
+<h2>@ViewBag.Message</h2>
+@using(Html.BeginForm(FormMethod.Post))
+ {
+    <table>
+        <tr>
+            <td>@Html.LabelFor(c=>c.Name)</td>
+            <td>@Html.TextBoxFor(c=>c.Name)</td>
+        </tr>
+        <tr>
+            <td>@Html.LabelFor(c => c.RegNo)</td>
+            <td>@Html.TextBoxFor(c => c.RegNo)</td>
+        </tr>
+        <tr>
+            <td>@Html.LabelFor(c => c.Email)</td>
+            <td>@Html.TextBoxFor(c => c.Email)</td>
+        </tr>
+        <tr>
+            <td>@Html.LabelFor(c => c.Address)</td>
+            <td>@Html.TextBoxFor(c => c.Address)</td>
+        </tr>
+        <tr>
+            <td>@Html.LabelFor(c => c.FatherName)</td>
+            <td>@Html.TextBoxFor(c => c.FatherName)</td>
+        </tr>
+        <tr>
+            <td></td>
+            <td><input type="submit" value="Save"/></td>
+        </tr>
+    </table>
+ }

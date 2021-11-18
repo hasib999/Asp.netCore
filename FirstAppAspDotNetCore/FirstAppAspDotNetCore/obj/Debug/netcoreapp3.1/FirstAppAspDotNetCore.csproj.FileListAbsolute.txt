@@ -116,3 +116,4 @@ C:\Users\hasib\Desktop\Asp.netCore\FirstAppAspDotNetCore\FirstAppAspDotNetCore\b
 C:\Users\hasib\Desktop\Asp.netCore\FirstAppAspDotNetCore\FirstAppAspDotNetCore\bin\Debug\netcoreapp3.1\zh-Hans\Microsoft.CodeAnalysis.Workspaces.resources.dll
 C:\Users\hasib\Desktop\Asp.netCore\FirstAppAspDotNetCore\FirstAppAspDotNetCore\bin\Debug\netcoreapp3.1\zh-Hant\Microsoft.CodeAnalysis.Workspaces.resources.dll
 C:\Users\hasib\Desktop\Asp.netCore\FirstAppAspDotNetCore\FirstAppAspDotNetCore\obj\Debug\netcoreapp3.1\Razor\Views\Home\GetAll.cshtml.g.cs
+C:\Users\hasib\Desktop\Asp.netCore\FirstAppAspDotNetCore\FirstAppAspDotNetCore\obj\Debug\netcoreapp3.1\Razor\Views\Home\Admission.cshtml.g.cs

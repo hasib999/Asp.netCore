@@ -35,9 +35,15 @@ namespace FirstAppAspDotNetCore.Controllers
         {
             return "Hello Asp.Net Core"+name;
         }
-
+        [HttpGet]
+        public ActionResult Admission()
+        {
+            return View();
+        }
+        [HttpPost]
         public string Admission(Student student)
         {
+            string msgs="";
             SqlConnection con = new SqlConnection("Data Source=DESKTOP-RCC9LDC;Initial Catalog=Student;Integrated Security=True");
             con.Open();
             string query = "Insert INTO Student(id,name,address,email,father_name) VALUES('"+student.Id +"','"+ student.Name + "','"+student.Address+"','"+student.Email+"','"+student.FatherName+"')";
@@ -45,9 +51,14 @@ namespace FirstAppAspDotNetCore.Controllers
             int rowCount = cmd.ExecuteNonQuery();
             if(rowCount>0)
             {
-                return "Data Saved";
+                msgs = "Data Saved";
             }
-            return "Not Saved";
+            else
+            {
+                msgs = "Not Saved";
+            }
+            return ViewBag.Message = msgs;
+            //return View();
             //return "Name "+student.Name+ "Address"+student.Address+ "Email"+student.Email+"Father Name"+student.FatherName;
         }
 
