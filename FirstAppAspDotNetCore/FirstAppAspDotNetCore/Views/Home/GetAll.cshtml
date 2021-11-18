@@ -1,0 +1,19 @@
+﻿@model List<FirstAppAspDotNetCore.Models.Student>
+@{
+    ViewData["Title"] = "GetAll";
+    //List<Student> students = (List<Student>)ViewBag.Students;
+}
+
+<h1>GetAll</h1>
+<table class="table table-bordered">
+    @foreach(var item in Model)
+     {
+        <tr>
+            <td>@item.Name</td>
+            <td>@item.RegNo</td>
+            <td>@item.Email</td>
+            <td>@item.Address</td>
+        </tr>
+     }
+</table>
+

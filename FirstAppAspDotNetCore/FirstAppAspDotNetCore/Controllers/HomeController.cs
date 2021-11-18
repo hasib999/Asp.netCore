@@ -51,6 +51,21 @@ namespace FirstAppAspDotNetCore.Controllers
             //return "Name "+student.Name+ "Address"+student.Address+ "Email"+student.Email+"Father Name"+student.FatherName;
         }
 
+        public ActionResult GetAll()
+        {
+            //ViewBag.Students = Studentss();
+            return View(Studentss());
+        }
+        public List<Student>Studentss()
+        {
+            return new List<Student>
+            {
+                new Student { Name = "Hasib Shanto",RegNo = "2017",Email="hasib@gmail.com",Address="Dhaka"},
+                new Student { Name = "Fahad",RegNo = "2018",Email="fahad@gmail.com",Address="Dhaka"}
+        };
+        }
+
+
         public IActionResult Privacy()
         {
             return View();
